@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Ubuntu Mono", monospace;
+    transition: 0.4s;
+}
+:root{
+    --hr-colour:gray;
+    --border-colour:#000000;
+    --text-shadow:#000000;
+    --order-background:#ffff00;
+    --order-text:#000000;
+    --btn-background:#ff0000;
+    --color:#ffffff;
+}
+
+hr{
+    height: 3px;
+    background-color: var(--hr-colour);
+}
+h1{
+    font-size: 50px;
+    color: red;
+}
+h2{
+    font-size: 40px;
+    color: var(--border-colour);
+    margin: 20px;
+    
+   
+    /* background: linear-gradient(to right, red, purple, blue, aqua);
+    background-clip: text;
+    color: transparent; */
+}
+h2:hover{
+    /* color: skyblue;
+    text-shadow: 2px 2px 2px var(--text-shadow),
+    -2px -2px 2px var(--text-shadow),
+    -2px 2px 2px var(--text-shadow),
+    2px -2px 2px var(--text-shadow); */
+}
+.nav-logo{
+    height: 25px;
+    width: 25px;
+    margin:0px 10px 20px;
+    border: 2px solid var(--color);
+    
+}
+.nav-logo:hover{
+    /* transform: scale(5); */
+}
+.nav-bar{
+    margin: 10px;
+    padding: 0px 30px 30px;
+    border: 2px solid var(--border-colour);
+    border-radius: 10px;
+    background-color: var(--hr-colour);
+    color: var(--color);
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 5px;
+    color: var(--color);
+}
+a:hover{
+    background-color:var(--btn-background);
+}
+.about-of{
+    min-height: 100px;
+    border: 2px solid var(--border-colour);
+    border-radius: 40px;
+    background-image: url(../images/background-image.jpg);
+    background-size:cover;
+    object-position: center center;
+    object-fit: cover;
+    padding: 30px;
+    margin: 50px;
+}
+.order{
+    background-color:var(--order-background);
+    color: var(--order-text);
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 10px;
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.about{
+    display: flex;
+    margin: 50px;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.options{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-top: 150px;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    box-shadow:   10px 10px 20px var(--text-shadow),
+        -10px  10px 20px var(--text-shadow),
+        10px 10px 20px var(--text-shadow),
+        10px 10px 20px var(--text-shadow);
+}
+#price{
+    background-image: url(../images/chef.jpg);
+}
+#special{
+    background-image: url(../images/pizza.jpg);
+}
+#option-btn{ 
+    background-color: #ffff00;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+#option-btn:hover{
+    background-color:var(--btn-background);
+}
+.itme-lists{
+    display: flex;
+    
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    
+}
+.itmes-videos{
+    height: 300px;
+    /* min-width: 300px; */
+    /* display: flex; */
+    background-position: center;
+    object-fit: cover;
+    border-radius: 20px;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    word-wrap: break-word;
+    
+}
+.itmes-videos:hover{
+    box-shadow: 10px 10px 20px var(--text-shadow),
+    0px  0px 20px var(--text-shadow),
+    10px 10px 20px var(--text-shadow),
+    10px 10px 20px var(--text-shadow);
+    transform: scale(1.01);
+}
+.order-btn{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    bottom: 100px;
+    background-color: var(--order-background);
+    color: var(--order-text);
+    font-size: 20px;
+}
+.email{
+    color: blue;
+    border: 0px solid;
+}
+#footer-section{
+    margin: 10px;
+    padding: 30px;
+    border: 2px solid var(--border-colour);
+    border-radius: 10px;
+    background-color: var(--hr-colour);
+    
+}
+.Featured{
+    margin-bottom: 20px;
+    
+}
+.email{
+    word-wrap: break-word;
+    
+}
